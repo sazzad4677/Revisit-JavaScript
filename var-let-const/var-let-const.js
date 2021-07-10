@@ -56,7 +56,7 @@ function constVariable(){
             version:"2015"
         } 
         constVariable.name = js;
-        console.log(constVariable) //{"name":"js", "version":"2015"}
+        console.log(constVariable) // output: {"name":"js", "version":"2015"}
     }
 }
 
