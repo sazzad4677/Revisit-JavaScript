@@ -3,6 +3,7 @@
 //Closures are function that refer to the independent variables (variables that are used locally, but defined in an enclosing scope)
 // In Other words these function 'remember' the environment in which they are created
 
+// simply closure is a function that remember some values
 //================----------================
 //parent scope
 var num1 = 5; // <---- global scope because num1 not defined in an enclosing scope
