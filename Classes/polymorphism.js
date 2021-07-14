@@ -4,8 +4,8 @@ class Person {
     this.name = name;
     this.age = age;
   }
-  eat() {
-    console.log(`${this.name} is eating`);
+  play() {
+    console.log(`${this.name} is playing`);
   }
 }
 
@@ -20,13 +20,12 @@ class Cricketer extends Person {
   }
 
   play() {
-    console.log(`${this.name} is playing`);
+    super.play();
+    console.log(`${this.name} is playing cricket`);
   }
 }
 
 let sakib = new Cricketer("Sakib", 40, "All Rounder", "Bangladesh");
 console.log(sakib.name); //Sakib
 
-sakib.eat(); //Sakib is eating
-
-
+sakib.play(); //Sakib is playing cricket
